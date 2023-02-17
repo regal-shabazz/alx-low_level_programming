@@ -19,12 +19,11 @@ int main(void)
 		if (num != 9)
 		{
 			putchar(',');
-			putchar(' ');
+			putchar('\n');
 		}
 
 		num++;
 	}
-	putchar('\n');
 
 	return (0);
 }
