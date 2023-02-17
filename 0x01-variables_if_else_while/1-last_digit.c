@@ -14,7 +14,7 @@
 /* betty style doc for function main goes there */
 int main(void)
 {
-	int n, lastDigit = n % 10;
+	int n = 0, lastDigit = n % 10;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
