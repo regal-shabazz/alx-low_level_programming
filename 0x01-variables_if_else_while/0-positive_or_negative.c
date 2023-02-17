@@ -6,7 +6,8 @@
 /**
  * main - Entry point for program
  *
- * Description: The program reads the value for n and checks if it is positive, negative or zero
+ * Description: The program reads the value for n and
+ * checks if it is positive, negative or zero
  *
  * int n -  Declares an integer variable
  *
@@ -26,15 +27,15 @@ int main(void)
 	/* your code goes there */
 	if (n > 0)
 	{
-		printf("is positive\n");
+		printf("%d is positive\n", num);
 	}
 	else if (n == 0)
 	{
-		printf("is zero\n");
+		printf("%d is zero\n", num);
 	}
 	else
 	{
-		printf("is negative");
+		printf("%d is negative", num);
 	};
 
 	return (0);
